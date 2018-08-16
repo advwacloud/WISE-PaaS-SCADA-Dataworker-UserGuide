@@ -1,4 +1,4 @@
-* [ ] # Message Rule - MongoDB
+# Message Rule - MongoDB
 
 ---
 
