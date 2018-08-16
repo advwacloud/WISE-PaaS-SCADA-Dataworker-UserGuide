@@ -1,10 +1,18 @@
-# Message Rule - MongoDB
+* [ ] # Message Rule - MongoDB
 
 ---
 
 依照使用者定義的Schema寫入MongoDB。
 
+#### 欄位說明：
 
+| Property | Description |
+| :--- | :--- |
+| tableName | Collection 名稱 |
+| index | Collection 的 index \(請參考[Mongoose](https://mongoosejs.com/docs/guide.html)\) |
+| schema | Collection 的 schema \(請參考[Mongoose](https://mongoosejs.com/docs/guide.html)\) |
+| mapping | schema 與封包處理後的數據格式的對應表 |
+| allMatch | 是否要檢查mapping中的所有欄位都必須要存在於封包中才寫入資料庫 |
 
 Sample:
 
