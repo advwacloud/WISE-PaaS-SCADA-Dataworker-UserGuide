@@ -6,18 +6,17 @@
 
 #### 欄位說明：
 
-| Property | Description |
-| :--- | :--- |
-| tableName | Collection 名稱 |
-| index | Collection 的 index \(請參考[Mongoose](https://mongoosejs.com/docs/guide.html)\) |
-| schema | Collection 的 schema \(請參考[Mongoose](https://mongoosejs.com/docs/guide.html)\) |
-| mapping | schema 與封包處理後的數據格式的對應表 |
-| allMatch | 是否要檢查mapping中的所有欄位都必須要存在於封包中才寫入資料庫 |
+| Property | 類型 | Description |
+| :--- | :--- | :--- |
+| tableName | String | Collection 名稱 |
+| index | Object | Collection 的 index \(請參考[Mongoose](https://mongoosejs.com/docs/guide.html)\) |
+| schema | Object | Collection 的 schema \(請參考[Mongoose](https://mongoosejs.com/docs/guide.html)\) |
+| mapping | Object | schema 與封包處理後的數據格式的對應表 |
+| allMatch | Boolean | 是否要檢查mapping中的所有欄位都必須要存在於封包中才寫入資料庫 |
 
-Sample:
-
-```
+#### Sample:
 MESSAGE_RULE:
+```
 {
   "name": "HistRawData",
   "type": "mongodb",
