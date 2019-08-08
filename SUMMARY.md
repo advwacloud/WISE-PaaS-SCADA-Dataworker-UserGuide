@@ -2,5 +2,6 @@
 
 * [Introduction](README.md)
 * [MessageRule](messagerule.md)
-  * [MongoDB](messagerule/mongodb.md)
+  * [mongodb](messagerule/mongodb.md)
+  * [transfer](messagerule/transfer.md)
 
